@@ -6,7 +6,7 @@
   "permissions": ["activeTab", "scripting"],
   "content_scripts": [
     {
-      "matches": ["moodle.iitd.ac.in/login"],
+      "matches": ["https://moodle.iitd.ac.in/login"],
       "js": ["content.js"]
     }
   ],
